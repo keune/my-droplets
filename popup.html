@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='utf-8'>
+<title>My Droplets</title>
+<link rel="stylesheet" type="text/css" href="css/popup.css">
+</head>
+<body>
+    <p id="title">My Droplets</p>
+    <div id="droplets">
+        <p class="default-msg">Retrieving droplets...</p>
+    </div>
+
+    <div id="other-links">
+        <a href="options.html" target="_blank">Options</a>
+        <a id="lnk-refresh" href="#">Refresh</a>
+    </div>  
+
+    <script id="tmpl-droplet" type="x-tmpl-mustache">
+        <div class="droplet">
+            <p>
+                <span class="holder">{{name}}</span>
+                <a href="https://cloud.digitalocean.com/droplets/{{id}}" target="_blank" class="btn-manage">Manage</a>
+            </p>
+            <div class="info">
+                <p><span>Status:</span> {{status}}</p>
+                <p><span>IP:</span> <input type="text" value="{{ip_address}}"></p>
+                <p><span>Region:</span> {{region_name}}</p>
+                <p><span>Size:</span> {{size_name}}</p>
+            </div>
+        </div>
+    </script>
+
+    <script type="text/javascript" src="js/lib/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/lib/mustache.js"></script>
+    <script src="js/popup.js"></script>
+</body>
+</html>

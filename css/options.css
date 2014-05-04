@@ -1,0 +1,55 @@
+body {
+    font-family: 'helvetica neue', helvetica;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    padding: 4px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+#title {
+    background: url(../icon.png) 0 0 no-repeat;
+    background-size: 30px;
+    font-size: 20px;
+    padding: 4px 4px 4px 32px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 230px;
+    padding: 4px;
+}
+
+#frm {
+    margin-left: 30px;
+}
+
+label {
+    display: block;
+    line-height: 30px;
+}
+
+label span {
+    display: inline-block;
+    width: 90px;
+}
+
+#btn-save {
+    font-size: 16px;
+    text-decoration: none;
+    outline: none;
+    background-color: #398bce;
+    color: #ffffff;
+    padding: 4px 12px;
+    border-radius: 5px;
+    border: none;
+}
+
+#btn-save:hover {
+    background-color: #286191;
+}

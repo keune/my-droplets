@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+
+  "name": "My Droplets",
+  "short_name": "My Droplets",
+  "description": "Easily access your Digital Ocean droplets.",
+  "version": "1.0.0",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "96": "icon.png",
+    "128": "icon.png"
+  },
+  "permissions": [
+    "storage",
+    "https://api.digitalocean.com/"
+  ],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "options_page": "options.html",
+  "background": {
+    "page": "background.html",
+    "persistent": false
+  }
+}

@@ -1,0 +1,82 @@
+body {
+    font-family: 'helvetica neue', helvetica;
+    font-size: 13px;
+    min-width: 200px;
+    color: #333333;
+    margin: 0;
+    padding: 4px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+p.default-msg {
+    margin: 4px;
+}
+
+#title {
+    background: url(../icon.png) 0 0 no-repeat;
+    background-size: 20px;
+    font-size: 14px;
+    padding: 4px 4px 4px 22px;
+    border-bottom: 1px solid #dddddd;
+    color: #000000;
+}
+
+.droplet {
+    padding: 8px;
+}
+
+.droplet:hover {
+    background-color: #eeeeee;
+}
+
+.droplet .holder {
+    font-weight: 600;
+}
+
+.droplet a.btn-manage {
+    font-size: 90%;
+    text-decoration: none;
+    outline: none;
+    background-color: #398bce;
+    color: #ffffff;
+    padding: 2px 4px;
+    border-radius: 2px;
+}
+
+.droplet a.manage:hover {
+    background-color: #2d6ea3;
+}
+
+.droplet .info p {
+    margin: 4px;
+}
+
+.droplet .info span {
+    display: inline-block;
+    width: 50px;
+}
+
+.droplet .info input {
+    border: 1px solid #dddddd;
+    width: 100px;
+}
+
+#other-links {
+    border-top: 1px solid #dddddd;
+}
+
+#other-links a {
+    display: block;
+    padding: 4px 8px;
+    text-decoration: none;
+    color: #333333;
+    outline: none;
+}
+
+#other-links a:hover {
+    background-color: #398bce;
+    color: #ffffff;
+}
